@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+class Main {
+
+    public static void main(String[] args) {
+    	printMultiplesOfThree(new int[] {1, 2, 3});
+  	}
+    
+    public static void printMultiplesOfThree(int[] numbers) {
+	
+      for (int number : numbers) {
+      	int remainder = number % 3;
+        if (remainder == 0) {
+    			System.out.println(number);
+      	}
+    }
+}
+}
